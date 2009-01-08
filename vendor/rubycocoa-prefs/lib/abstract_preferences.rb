@@ -1,8 +1,8 @@
 require 'singleton'
 
-# TODO: require from an installed macruby
-$: << "/Users/eloy/code/MacRuby/trunk/lib"
-require 'objc_ext/ns_user_defaults'
+# # TODO: require from an installed macruby
+# $: << "/Users/eloy/code/MacRuby/trunk/lib"
+# require 'objc_ext/ns_user_defaults'
 
 class Preferences
   include Singleton
